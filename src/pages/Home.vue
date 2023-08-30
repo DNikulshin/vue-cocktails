@@ -52,7 +52,7 @@ function removeIngredient() {
         </div>
         <img src="/src/assets/img/cocktails.png" alt="cocktails" class="img"/>
       </div>
-      <div class="info">
+      <div v-else class="info">
         <div class="title">COCKTAILS WITH {{ rootStore.ingredient }}</div>
         <div class="line"></div>
         <div class="cocktails">
